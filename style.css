@@ -29,7 +29,6 @@ body{
     height: 80px;
     background-color: azure;
     border: 1px solid black;
-    border-radius: 8px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     position: relative;
@@ -44,8 +43,13 @@ body{
 }
 
 .case > .screen > #expression {
-    font-size: 28px;
+    font-size: 20px;
+}
 
+.case > .screen > #answer {
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
 }
 
 .case > .keypad {
