@@ -28,9 +28,8 @@ body{
     width: 100%;
     height: 80px;
     background-color: azure;
-    border: 1px solid black;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    border: none;
+    border-radius: 30px;
     position: relative;
 }
 
@@ -43,11 +42,13 @@ body{
 }
 
 .case > .screen > #expression {
-    font-size: 20px;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
 }
 
 .case > .screen > #answer {
-    font-size: 36px;
+    font-size: 40px;
     position: absolute;
     top: 40px;
 }
